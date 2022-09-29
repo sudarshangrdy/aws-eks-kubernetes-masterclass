@@ -38,6 +38,7 @@ http://<WorkerNode-Public-IP>:31231/usermgmt/health-status
 kubectl get nodes
 kubectl describe node <Node-Name>
 ```
+Here percentage in brackets from the output of above command is the percentage of system resources which is allocated
 ## Step-04: Clean-Up
 - Delete all k8s objects created as part of this section
 ```
