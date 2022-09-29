@@ -12,7 +12,7 @@ metadata:
 - Instead of specifying `resources like cpu and memory` in every container spec of a pod defintion, we can provide the default CPU & Memory for all containers in a namespace using `LimitRange`
 ```yml
 apiVersion: v1
-kind: ResourceQuota
+kind: LimitRange
 metadata:
   name: ns-resource-quota
   namespace: dev3
