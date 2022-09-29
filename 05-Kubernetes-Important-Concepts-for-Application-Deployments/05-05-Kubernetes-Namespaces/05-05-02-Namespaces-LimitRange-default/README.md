@@ -14,7 +14,7 @@ metadata:
 apiVersion: v1
 kind: LimitRange
 metadata:
-  name: ns-resource-quota
+  name: def-limit-cpu-mem-range
   namespace: dev3
 spec:
   limits:
