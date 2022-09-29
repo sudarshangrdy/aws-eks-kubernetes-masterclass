@@ -26,6 +26,7 @@ spec:
         cpu: "300m" # If not specified default it will take from whatever specified in limits.default.cpu
       type: Container                        
 ```
+This is add restriction to all the containers including init container
 
 ## Step-03: Update all k8s manifest with namespace
 - Update all files from 02 to 08 with `namespace: dev3` in top metadata section in folder `kube-manifests/02-Declarative` 
