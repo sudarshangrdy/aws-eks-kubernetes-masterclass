@@ -14,6 +14,9 @@
             initialDelaySeconds: 60
             periodSeconds: 10
 ```
+## Here nc means netcat and -z means Report connection status without establishing a connection and sh -c spawns a non-login, non-interactive session of sh
+## initialDelaySeconds -- initialDelaySeconds after pod is started
+## periodSeconds -- For every this period we will perform this probe
 
 ## Step-03: Create Readiness Probe with HTTP GET
 ```yml
